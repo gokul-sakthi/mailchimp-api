@@ -65,19 +65,3 @@ app.post("/failure", function(req, res){
 app.listen(process.env.PORT || 3000, function() {
   console.log("Sever running on port 3000");
 })
-
-
-
-
-
-
-
-
-
-
-
-// lockness mail list id
-// 24a5718b5c
-
-// Api Key for mailchimp
-// 172e1b96cf7bc08eb6e942c30445e45c-us4
