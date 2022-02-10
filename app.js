@@ -34,10 +34,10 @@ app.post("/", function(req, res) {
   var jsonData = JSON.stringify(data);
 
   var options = {
-    "url":"https://us4.api.mailchimp.com/3.0/lists/24a5718b5c",
+    "url":"MAILCHIMP HEADER URL",
     method:"POST",
     headers: {
-      "Authorization" : "gokul 172e1b96cf7bc08eb6e942c30445e45c-us4"
+      "Authorization" : "AUTH HEADER TOKEN"
     },
     body: jsonData
 
